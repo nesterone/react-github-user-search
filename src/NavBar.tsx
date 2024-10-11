@@ -1,7 +1,6 @@
 interface NavBarProps {
   children: React.ReactElement
 }
-
 export function NavBar({ children }: NavBarProps) {
     return (
         <header className="bg-white shadow-sm lg:static lg:overflow-y-visible">
@@ -12,7 +11,7 @@ export function NavBar({ children }: NavBarProps) {
                             <a href="#">
                                 <img
                                     className="h-8 w-auto"
-                                    src="./../assets/github-mark.svg"
+                                    src="./assets/github-mark.svg"
                                     alt="Github Logo" />
                             </a>
                         </div>
